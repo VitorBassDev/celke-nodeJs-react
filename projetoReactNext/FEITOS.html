@@ -1,0 +1,36 @@
+AULA 02
+
+- Criação do projeto: npm init
+- Instalação de componentes
+    * DOM - responsável por exibir a aplicação no navegador, faz uso da ARVORE DOM que são as interações com o JavaScript
+    * REACT
+    * NEXT
+    OBS: Intalei os 3 componentes de uma vez: npm install --save react react-dom next
+
+- Configuração do SCRIPT no arquivo package.json 
+    * dev - next (quando estiver em desenvolvimeto)
+    * build - next build (quando estiver em produção)
+    * start - next start (quando estiver em produção para executar o servidor)
+
+- Criar diretórios e páginas da aplicação:
+    * Criar diretório com nome 'pages' (só pode ser usado este nome), em seguida criar o arquivo index.js(esse pode ser qualquer nome)
+
+- Configurar página inical com a função HOME que ira retornar a página (html)
+- Congigurar a exportação para que a função localizada em pages/index.js possa ser usar um outras paginas
+
+- Executar para testar
+    * npm rum dev - Após rodar esse comando, o projeto será compilado, e será criado o diretório .next
+
+- Configuraçao do Cabeçahlo da página
+    * importar o Header da bilbioteca next: import Head from 'next/head' e configurar o Cabeçahlo
+
+- Configurar o componente AXIOS para fazer a comunicação
+    * instalar o componente axios: npm install --save axios
+    * instalar o componente cors: Pacote que fornece/permite a conexão npm install cors ( no backend)
+    * Configurar URL e Métodos que possuem a permissão de acessos
+
+- Comunicar o React com a Api do nodeJs criada na aula 01
+    * importar os componentes react e axios
+    * configurar a conexão com a API
+    * Fazer o CRUD de 'Usuarios' e 'Sobre'
+
